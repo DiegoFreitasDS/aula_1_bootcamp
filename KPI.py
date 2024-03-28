@@ -18,7 +18,7 @@ bonus = float(input("\nAgora, digite a % do seu bonus: \n"))
 
 fixo = 1000
 
-calculo = ((fixo + salario)*bonus)
+calculo = fixo + (salario*bonus)
 
 # 5 Finalmente, o programa deve imprimir uma mensagem no seguinte formato: "Olá [nome], o seu valor bônus foi de 5000".
 
